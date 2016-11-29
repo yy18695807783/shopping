@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_selected_focused_holo.9.png",
-        "source": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\src\\main\\res\\drawable-xhdpi\\vpi__tab_selected_focused_holo.9.png"
-    },
-    {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_selected_holo.9.png",
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\src\\main\\res\\drawable-xhdpi\\vpi__tab_selected_holo.9.png"
     },
@@ -44,14 +40,6 @@
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_selected_holo.9.png",
-        "source": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\src\\main\\res\\drawable-xhdpi\\vpi__tab_selected_holo.9.png"
-    },
-    {
-        "merged": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
-        "source": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\src\\main\\res\\drawable-xhdpi\\vpi__tab_selected_pressed_holo.9.png"
-    },
-    {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
@@ -74,10 +62,6 @@
     {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
-        "source": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\src\\main\\res\\drawable-xhdpi\\vpi__tab_unselected_focused_holo.9.png"
     },
     {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
@@ -122,10 +106,6 @@
     {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_holo.9.png",
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\src\\main\\res\\drawable-xhdpi\\vpi__tab_unselected_holo.9.png"
-    },
-    {
-        "merged": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_holo.9.png",
-        "source": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\src\\main\\res\\drawable-xhdpi\\vpi__tab_unselected_holo.9.png"
     },
     {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
@@ -230,9 +210,5 @@
     {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
-        "source": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\src\\main\\res\\drawable-xhdpi\\vpi__tab_unselected_pressed_holo.9.png"
     }
 ]

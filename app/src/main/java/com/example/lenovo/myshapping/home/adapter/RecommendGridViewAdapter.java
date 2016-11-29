@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.example.lenovo.myshapping.R;
 import com.example.lenovo.myshapping.home.bean.ResultBean;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -63,7 +63,7 @@ public class RecommendGridViewAdapter extends BaseAdapter {
         ResultBean.RecommendInfoBean recommendInfoBean = mRecommend_info.get(position);
 
         //绑定数据
-        Picasso.with(mContext).load(Constants.BASE_URL_IMAGE + recommendInfoBean.getFigure()).into(viewHolder.ivRecommend);
+        Picasso.with(mContext).load(MyConstants.BASE_URL_IMAGE + recommendInfoBean.getFigure()).into(viewHolder.ivRecommend);
         viewHolder.tvName.setText(recommendInfoBean.getName());
         viewHolder.tvPrice.setText("￥" + recommendInfoBean.getCover_price());
         return convertView;

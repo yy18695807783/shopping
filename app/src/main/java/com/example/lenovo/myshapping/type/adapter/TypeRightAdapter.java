@@ -18,7 +18,7 @@ import com.example.lenovo.myshapping.R;
 import com.example.lenovo.myshapping.app.GoodsInfoActivity;
 import com.example.lenovo.myshapping.home.bean.GoodsBean;
 import com.example.lenovo.myshapping.type.bean.TypeBean;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.example.lenovo.myshapping.utils.DensityUtil;
 import com.squareup.picasso.Picasso;
 
@@ -97,7 +97,7 @@ public class TypeRightAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
 
         public void setData(TypeBean.ResultBean.ChildBean childBean, final int position) {
             Picasso.with(mContext)
-                    .load(Constants.BASE_URL_IMAGE + childBean.getPic())
+                    .load(MyConstants.BASE_URL_IMAGE + childBean.getPic())
                     .into(iv_ordinary_right);
             tv_ordinary_right.setText(childBean.getName());
 
@@ -137,7 +137,7 @@ public class TypeRightAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
                 LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(DensityUtil.dip2px(mContext, 80), DensityUtil.dip2px(mContext, 80));
                 ImageView imageView = new ImageView(mContext);
                 Picasso.with(mContext)
-                        .load(Constants.BASE_URL_IMAGE + hot_product_list.get(i).getFigure())
+                        .load(MyConstants.BASE_URL_IMAGE + hot_product_list.get(i).getFigure())
                         .into(imageView);
                 lp.setMargins(0, 0, 0, DensityUtil.dip2px(mContext, 10));
                 myLinear.addView(imageView, lp);

@@ -15,7 +15,7 @@ import android.widget.TextView;
 import com.example.lenovo.myshapping.R;
 import com.example.lenovo.myshapping.find.bean.HotPostBean;
 import com.example.lenovo.myshapping.utils.BitmapUtils;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.example.lenovo.myshapping.utils.DensityUtil;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Transformation;
@@ -74,7 +74,7 @@ public class HotPostListViewAdapter extends BaseAdapter {
         SimpleDateFormat myFmt = new SimpleDateFormat("MM-dd HH:mm");
         holder.tvHotAddtime.setText(myFmt.format(Integer.parseInt(resultBean.getAdd_time())));
 
-        Picasso.with(mContext).load(Constants.BASE_URL_IMAGE+resultBean.getFigure()).into(holder.ivHotFigure);
+        Picasso.with(mContext).load(MyConstants.BASE_URL_IMAGE+resultBean.getFigure()).into(holder.ivHotFigure);
         holder.tvHotSaying.setText(resultBean.getSaying());
         holder.tvHotLikes.setText(resultBean.getLikes());
         holder.tvHotComments.setText(resultBean.getComments());

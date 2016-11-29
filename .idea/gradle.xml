@@ -10,11 +10,13 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/FlycoTabLayout_Lib" />
+            <option value="$PROJECT_DIR$/JPushExample(558140)" />
             <option value="$PROJECT_DIR$/ViewPagerIndicator_library" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/banner_library" />
             <option value="$PROJECT_DIR$/okhttputils_library" />
             <option value="$PROJECT_DIR$/opendanmaku" />
+            <option value="$PROJECT_DIR$/zxing_library" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

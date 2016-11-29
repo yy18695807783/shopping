@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.example.lenovo.myshapping.R;
 import com.example.lenovo.myshapping.home.bean.ResultBean;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -63,7 +63,7 @@ public class HotAdapter extends BaseAdapter {
         ResultBean.HotInfoBean hotInfoBean = mHot_info.get(position);
 
         //装配数据
-        Picasso.with(mContext).load(Constants.BASE_URL_IMAGE + hotInfoBean.getFigure()).into(viewHolder.ivHot);
+        Picasso.with(mContext).load(MyConstants.BASE_URL_IMAGE + hotInfoBean.getFigure()).into(viewHolder.ivHot);
 
         viewHolder.tvName.setText(hotInfoBean.getName());
         viewHolder.tvPrice.setText("￥" + hotInfoBean.getCover_price());

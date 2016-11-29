@@ -3,12 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FlycoTabLayout_Lib/FlycoTabLayout_Lib.iml" filepath="$PROJECT_DIR$/FlycoTabLayout_Lib/FlycoTabLayout_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JPushExample(558140)/JPushExample(558140).iml" filepath="$PROJECT_DIR$/JPushExample(558140)/JPushExample(558140).iml" />
       <module fileurl="file://$PROJECT_DIR$/MyShapping.iml" filepath="$PROJECT_DIR$/MyShapping.iml" />
       <module fileurl="file://$PROJECT_DIR$/ViewPagerIndicator_library/ViewPagerIndicator_library.iml" filepath="$PROJECT_DIR$/ViewPagerIndicator_library/ViewPagerIndicator_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/banner_library/banner_library.iml" filepath="$PROJECT_DIR$/banner_library/banner_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/okhttputils_library/okhttputils_library.iml" filepath="$PROJECT_DIR$/okhttputils_library/okhttputils_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/opendanmaku/opendanmaku.iml" filepath="$PROJECT_DIR$/opendanmaku/opendanmaku.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxing_library/zxing_library.iml" filepath="$PROJECT_DIR$/zxing_library/zxing_library.iml" />
     </modules>
   </component>
 </project>

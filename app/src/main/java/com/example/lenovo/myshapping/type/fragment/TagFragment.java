@@ -7,7 +7,7 @@ import com.example.lenovo.myshapping.R;
 import com.example.lenovo.myshapping.base.BaseFragment;
 import com.example.lenovo.myshapping.type.adapter.TagGridViewAdapter;
 import com.example.lenovo.myshapping.type.bean.TagBean;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.google.gson.Gson;
 import com.zhy.http.okhttp.OkHttpUtils;
 import com.zhy.http.okhttp.callback.StringCallback;
@@ -44,7 +44,7 @@ public class TagFragment extends BaseFragment {
     private void getDataFromNet() {
         OkHttpUtils
                 .get()
-                .url(Constants.TAG_URL)//http://192.168.1.144:8080/atguigu/json/TAG_URL.json
+                .url(MyConstants.TAG_URL)//http://192.168.1.144:8080/atguigu/json/TAG_URL.json
                 .id(100)
                 .build()
                 .execute(new MyStringCallback());

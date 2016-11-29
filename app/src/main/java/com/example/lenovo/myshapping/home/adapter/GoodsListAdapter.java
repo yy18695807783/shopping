@@ -10,7 +10,7 @@ import android.widget.TextView;
 import com.example.lenovo.myshapping.R;
 import com.example.lenovo.myshapping.home.actyvity.GoodsListActivity;
 import com.example.lenovo.myshapping.home.bean.TypeListBean;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -66,7 +66,7 @@ public class GoodsListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         }
 
         public void setData(TypeListBean.ResultBean.PageDataBean data) {
-            Picasso.with(mContext).load(Constants.BASE_URL_IMAGE+data.getFigure()).into(iv_hot);
+            Picasso.with(mContext).load(MyConstants.BASE_URL_IMAGE+data.getFigure()).into(iv_hot);
             tv_name.setText(data.getName());
             tv_price.setText("￥" + data.getCover_price());
             this.data = data;

@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.example.lenovo.myshapping.home.bean.ResultBean;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -35,9 +35,9 @@ public class ActAdapter extends PagerAdapter {
         view.setScaleType(ImageView.ScaleType.FIT_XY);
 
         //绑定数据
-        Picasso.with(mContext).load(Constants.BASE_URL_IMAGE + mAct_info.get(position).getIcon_url()).into(view);
+        Picasso.with(mContext).load(MyConstants.BASE_URL_IMAGE + mAct_info.get(position).getIcon_url()).into(view);
 //        Glide.with(mContext)
-//                .load(Constants.Base_URl_IMAGE + data.get(position).getIcon_url())
+//                .load(MyConstants.Base_URl_IMAGE + data.get(position).getIcon_url())
 //                .into(view);
         container.addView(view);
         return view;

@@ -1,1 +1,1 @@
-include ':app', ':banner_library', ':okhttputils_library', ':ViewPagerIndicator_library', ':FlycoTabLayout_Lib', ':opendanmaku'
+include ':app', ':banner_library', ':okhttputils_library', ':ViewPagerIndicator_library', ':FlycoTabLayout_Lib', ':opendanmaku', ':zxing_library', ':JPushExample(558140)'

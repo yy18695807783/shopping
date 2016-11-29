@@ -25,6 +25,7 @@ import java.util.ArrayList;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import cn.jpush.android.api.JPushInterface;
 
 public class MainActivity extends FragmentActivity {
 
@@ -72,7 +73,23 @@ public class MainActivity extends FragmentActivity {
 //        //需要设置这个 flag 才能调用 setStatusBarColor 来设置状态栏颜色
 //        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
 //        //设置状态栏颜色
-//        window.setStatusBarColor(getResources().getColor(R.color.red_top));
+//        window.setStatusBarColor(getResources().getColor(R.color.red_light));
+//
+//        ViewGroup mContentView = (ViewGroup) this.findViewById(Window.ID_ANDROID_CONTENT);
+//        View mChildView = mContentView.getChildAt(0);
+//        if (mChildView != null) {
+//            //注意不是设置 ContentView 的 FitsSystemWindows, 而是设置 ContentView 的第一个子 View . 预留出系统 View 的空间.
+//            ViewCompat.setFitsSystemWindows(mChildView, true);
+//        }
+
+//        Window window = this.getWindow();
+//        //取消设置透明状态栏,使 ContentView 内容不再覆盖状态栏
+//        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+//
+//        //需要设置这个 flag 才能调用 setStatusBarColor 来设置状态栏颜色
+//        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+//        //设置状态栏颜色
+//        window.setStatusBarColor(Color.parseColor("#ff0000"));
 //
 //        ViewGroup mContentView = (ViewGroup) this.findViewById(Window.ID_ANDROID_CONTENT);
 //        View mChildView = mContentView.getChildAt(0);
@@ -218,6 +235,19 @@ public class MainActivity extends FragmentActivity {
     protected void onDestroy() {
         super.onDestroy();
         handler.removeCallbacksAndMessages(null);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        JPushInterface.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+
+        super.onPause();
+        JPushInterface.onPause(this);
     }
 
 }

@@ -110,6 +110,7 @@ public class CartProvider {
     }
 
 
+    //删除数据
     public void deleteData(GoodsBean cart) {
 
         //删除数据
@@ -121,6 +122,7 @@ public class CartProvider {
         commit();
     }
 
+    //修改数据
     public void updataData(GoodsBean cart) {
         //修改数据
         datas.put(Integer.parseInt(cart.getProduct_id()), cart);

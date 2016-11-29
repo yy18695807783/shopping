@@ -86,6 +86,8 @@ public class ShoppingCartActivity extends Activity implements View.OnClickListen
             finish();
         } else if (v == btnCheckOut) {
             Toast.makeText(ShoppingCartActivity.this, "结算", Toast.LENGTH_SHORT).show();
+
+
         } else if (v == tvShopcartEdit) {
             //设置编辑的点击事件
             int tag = (int) tvShopcartEdit.getTag();

@@ -30,7 +30,7 @@ import com.example.lenovo.myshapping.home.adapter.GoodsListAdapter;
 import com.example.lenovo.myshapping.home.bean.GoodsBean;
 import com.example.lenovo.myshapping.home.bean.TypeListBean;
 import com.example.lenovo.myshapping.home.utils.SpaceItemDecoration;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.zhy.http.okhttp.OkHttpUtils;
 import com.zhy.http.okhttp.callback.StringCallback;
 
@@ -235,7 +235,7 @@ public class GoodsListActivity extends Activity implements View.OnClickListener 
             finish();
 
         } else if (v == ibGoodsListHome) {//顶部--home键
-//            Constants.isBackHome = true;
+//            MyConstants.isBackHome = true;
 //            if(dlLeft.isEnabled()){
 //                tvGoodsListSelect.setTextColor(Color.parseColor("#333538"));//黑色
 //            }
@@ -412,15 +412,15 @@ public class GoodsListActivity extends Activity implements View.OnClickListener 
      */
     private int position;
     private String[] urls = new String[]{
-            Constants.CLOSE_STORE,//http://192.168.1.144:8080/atguigu/json/CLOSE_STORE.json
-            Constants.GAME_STORE,//http://192.168.1.144:8080/atguigu/json/GAME_STORE.json
-            Constants.COMIC_STORE,
-            Constants.COSPLAY_STORE,
-            Constants.GUFENG_STORE,
-            Constants.STICK_STORE,
-            Constants.WENJU_STORE,
-            Constants.FOOD_STORE,
-            Constants.SHOUSHI_STORE,
+            MyConstants.CLOSE_STORE,//http://192.168.1.144:8080/atguigu/json/CLOSE_STORE.json
+            MyConstants.GAME_STORE,//http://192.168.1.144:8080/atguigu/json/GAME_STORE.json
+            MyConstants.COMIC_STORE,
+            MyConstants.COSPLAY_STORE,
+            MyConstants.GUFENG_STORE,
+            MyConstants.STICK_STORE,
+            MyConstants.WENJU_STORE,
+            MyConstants.FOOD_STORE,
+            MyConstants.SHOUSHI_STORE,
     };
     private GoodsListAdapter adapter1;
     private List<TypeListBean.ResultBean.PageDataBean> page_data;

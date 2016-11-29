@@ -13,7 +13,7 @@ import android.widget.TextView;
 import com.example.lenovo.myshapping.R;
 import com.example.lenovo.myshapping.find.bean.NewPostBean;
 import com.example.lenovo.myshapping.utils.BitmapUtils;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.opendanmaku.DanmakuItem;
 import com.opendanmaku.DanmakuView;
 import com.opendanmaku.IDanmakuItem;
@@ -78,7 +78,7 @@ public class NewPostListViewAdapter extends BaseAdapter {
         holder.tvCommunityUsername.setText(resultBean.getUsername());
         //holder.tvCommunityAddtime.setText();
         Picasso.with(mContext)
-                .load(Constants.BASE_URL_IMAGE+resultBean.getFigure())
+                .load(MyConstants.BASE_URL_IMAGE+resultBean.getFigure())
                 .into(holder.ivCommunityFigure);
 
 

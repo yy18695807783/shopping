@@ -1,5 +1,6 @@
 package com.example.lenovo.myshapping.find.fragment;
 
+import android.content.Intent;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.widget.ImageButton;
@@ -7,6 +8,7 @@ import android.widget.ImageButton;
 import com.example.lenovo.myshapping.R;
 import com.example.lenovo.myshapping.base.BaseFragment;
 import com.example.lenovo.myshapping.find.adapter.CommunityViewPagerAdapter;
+import com.example.lenovo.myshapping.user.activity.MessageCenterActivity;
 import com.viewpagerindicator.TabPageIndicator;
 
 import butterknife.Bind;
@@ -48,7 +50,12 @@ public class FindFragment extends BaseFragment {
 
     @Override
     protected void initListener() {
-
+        ibCommunityMessage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {//消息
+                startActivity(new Intent(getActivity(), MessageCenterActivity.class));
+            }
+        });
     }
 
 }

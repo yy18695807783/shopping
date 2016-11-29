@@ -24,7 +24,7 @@ import com.example.lenovo.myshapping.home.bean.GoodsBean;
 import com.example.lenovo.myshapping.home.bean.ResultBean;
 import com.example.lenovo.myshapping.home.utils.AlphaPageTransformer;
 import com.example.lenovo.myshapping.home.utils.ScaleInTransformer;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.squareup.picasso.Picasso;
 import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;
@@ -452,7 +452,7 @@ public class HomeRecycleAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             //获取图片路径集合
             List<String> imageUrls = new ArrayList<>();
             for (int i = 0; i < banner_info.size(); i++) {
-                String imageUrl = Constants.BASE_URL_IMAGE + banner_info.get(i).getImage();
+                String imageUrl = MyConstants.BASE_URL_IMAGE + banner_info.get(i).getImage();
                 Log.e("TAG", "图片url集合" + imageUrl);
                 imageUrls.add(imageUrl);
             }

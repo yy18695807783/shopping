@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.example.lenovo.myshapping.R;
 import com.example.lenovo.myshapping.home.bean.ResultBean;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -62,7 +62,7 @@ public class ChannelAdapter extends BaseAdapter {
 
         viewHolder.tvChannel.setText(channelInfoBean.getChannel_name());
 
-        Picasso.with(mContext).load(Constants.BASE_URL_IMAGE+channelInfoBean.getImage()).into(viewHolder.ivChannel);
+        Picasso.with(mContext).load(MyConstants.BASE_URL_IMAGE+channelInfoBean.getImage()).into(viewHolder.ivChannel);
 
         return convertView;
     }

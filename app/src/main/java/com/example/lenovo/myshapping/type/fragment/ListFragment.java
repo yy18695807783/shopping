@@ -12,7 +12,7 @@ import com.example.lenovo.myshapping.base.BaseFragment;
 import com.example.lenovo.myshapping.type.adapter.TypeLeftAdapter;
 import com.example.lenovo.myshapping.type.adapter.TypeRightAdapter;
 import com.example.lenovo.myshapping.type.bean.TypeBean;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.google.gson.Gson;
 import com.zhy.http.okhttp.OkHttpUtils;
 import com.zhy.http.okhttp.callback.StringCallback;
@@ -35,17 +35,17 @@ public class ListFragment extends BaseFragment {
     RecyclerView rvRight;
 
     private List<TypeBean.ResultBean> result;
-    private String[] urls = new String[]{Constants.SKIRT_URL,//http://192.168.1.144:8080/atguigu/json/SKIRT_URL.json
-            Constants.JACKET_URL,
-            Constants.PANTS_URL,
-            Constants.OVERCOAT_URL,
-            Constants.ACCESSORY_URL,
-            Constants.BAG_URL,
-            Constants.DRESS_UP_URL,
-            Constants.HOME_PRODUCTS_URL,
-            Constants.STATIONERY_URL,
-            Constants.DIGIT_URL,
-            Constants.GAME_URL};
+    private String[] urls = new String[]{MyConstants.SKIRT_URL,//http://192.168.1.144:8080/atguigu/json/SKIRT_URL.json
+            MyConstants.JACKET_URL,
+            MyConstants.PANTS_URL,
+            MyConstants.OVERCOAT_URL,
+            MyConstants.ACCESSORY_URL,
+            MyConstants.BAG_URL,
+            MyConstants.DRESS_UP_URL,
+            MyConstants.HOME_PRODUCTS_URL,
+            MyConstants.STATIONERY_URL,
+            MyConstants.DIGIT_URL,
+            MyConstants.GAME_URL};
 
     private TypeLeftAdapter leftAdapter;
     private boolean isFirst = true;
@@ -87,7 +87,7 @@ public class ListFragment extends BaseFragment {
                     leftAdapter = new TypeLeftAdapter(mContext);
                     lvLeft.setAdapter(leftAdapter);
                 }
-                initListenerFoSelf(leftAdapter);
+                initListenerFoSelf(leftAdapter);//左边listView的点击监听以及选中监听
 
                 //解析右边数据
                 TypeRightAdapter rightAdapter = new TypeRightAdapter(mContext, result);
@@ -101,9 +101,9 @@ public class ListFragment extends BaseFragment {
                     @Override
                     public int getSpanSize(int position) {
                         if (position == 0) {
-                            return 3;
+                            return 3;//设置第一行为3列显示
                         } else {
-                            return 1;
+                            return 1;//其余行是一列（其中添加3列的GlideView，还能显示）
                         }
                     }
                 });

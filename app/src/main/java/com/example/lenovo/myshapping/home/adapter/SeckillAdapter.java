@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.example.lenovo.myshapping.R;
 import com.example.lenovo.myshapping.home.bean.ResultBean;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
@@ -48,7 +48,7 @@ public class SeckillAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         MyViewHolder myViewHolder = (MyViewHolder) holder;
         ResultBean.SeckillInfoBean.ListBean listBean = list.get(position);
         //加载图片
-        Picasso.with(mContext).load(Constants.BASE_URL_IMAGE + listBean.getFigure()).into(myViewHolder.ivFigure);
+        Picasso.with(mContext).load(MyConstants.BASE_URL_IMAGE + listBean.getFigure()).into(myViewHolder.ivFigure);
         myViewHolder.tvCoverPrice.setText("￥" + listBean.getCover_price());
         myViewHolder.tvOriginPrice.setText("￥" + listBean.getOrigin_price());
 

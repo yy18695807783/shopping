@@ -1,8 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".user.fragment.UserFragment">
+    android:layout_height="match_parent">
 
 
     <ScrollView
@@ -32,14 +30,23 @@
                     android:layout_centerInParent="true"
                     android:background="@drawable/new_user_icon" />
 
+                <!--<ImageView-->
+                    <!--android:id="@+id/ib_user_icon_avator"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:clickable="true"-->
+                    <!--android:layout_centerInParent="true"-->
+                    <!--android:background="@drawable/new_user_login_icon" />-->
+
                 <TextView
                     android:id="@+id/tv_username"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="130dp"
+                    android:background="@android:color/white"
                     android:text="登录/注册"
-                    android:textColor="#fff" />
+                    android:textColor="@android:color/black" />
             </RelativeLayout>
 
             <View
@@ -259,27 +266,27 @@
         android:textSize="20sp" />
 
     <!--<FrameLayout-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content">-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
 
-        <RelativeLayout
-            android:layout_width="match_parent"
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/ib_user_setting"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp">
+            android:background="@drawable/new_user_setting" />
 
-            <ImageButton
-                android:id="@+id/ib_user_setting"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/new_user_setting" />
-
-            <ImageButton
-                android:id="@+id/ib_user_message"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:background="@drawable/new_message_icon" />
-        </RelativeLayout>
+        <ImageButton
+            android:id="@+id/ib_user_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/new_message_icon" />
+    </RelativeLayout>
     <!--</FrameLayout>-->
 
 </RelativeLayout>

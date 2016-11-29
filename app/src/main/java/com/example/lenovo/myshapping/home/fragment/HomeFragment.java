@@ -17,7 +17,7 @@ import com.example.lenovo.myshapping.base.BaseFragment;
 import com.example.lenovo.myshapping.home.adapter.HomeRecycleAdapter;
 import com.example.lenovo.myshapping.home.bean.ResultBean;
 import com.example.lenovo.myshapping.user.activity.MessageCenterActivity;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.zhy.http.okhttp.OkHttpUtils;
 import com.zhy.http.okhttp.callback.StringCallback;
 
@@ -61,7 +61,7 @@ public class HomeFragment extends BaseFragment {
     private void getDataFromNet() {
         OkHttpUtils
                     .get()
-                    .url(Constants.HOME_URL)
+                    .url(MyConstants.HOME_URL)
                     .id(100)//下面回调的id
                     .build()
                     .execute(new MyStringCallback());
@@ -79,7 +79,7 @@ public class HomeFragment extends BaseFragment {
                 @Override
                 public void onResponse(String response, int id) {
                     //联网成功会到这里
-                    Log.e("TAG", "联网成功Constants.HOME_URL = " + Constants.HOME_URL);
+                    Log.e("TAG", "联网成功Constants.HOME_URL = " + MyConstants.HOME_URL);
 
                     switch (id) {
                 case 100:

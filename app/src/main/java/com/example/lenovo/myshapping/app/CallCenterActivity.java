@@ -7,7 +7,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 import com.example.lenovo.myshapping.R;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -23,7 +23,7 @@ public class CallCenterActivity extends Activity {
         setContentView(R.layout.activity_call_center);
         ButterKnife.bind(this);
 
-        setWebView(Constants.CALL_CENTER);
+        setWebView(MyConstants.CALL_CENTER);
     }
 
     private void setWebView(String url) {

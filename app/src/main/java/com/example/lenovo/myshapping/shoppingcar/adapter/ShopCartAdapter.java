@@ -13,7 +13,7 @@ import com.example.lenovo.myshapping.R;
 import com.example.lenovo.myshapping.home.bean.GoodsBean;
 import com.example.lenovo.myshapping.shoppingcar.utils.CartProvider;
 import com.example.lenovo.myshapping.shoppingcar.view.NumberAddSubView;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.squareup.picasso.Picasso;
 
 import java.util.Iterator;
@@ -181,7 +181,7 @@ public class ShopCartAdapter  extends RecyclerView.Adapter<RecyclerView.ViewHold
         public void setData(final GoodsBean goodsBean) {
             cbGov.setChecked(goodsBean.isChildSelected());
             Picasso.with(mContext)
-                    .load(Constants.BASE_URL_IMAGE+goodsBean.getFigure())
+                    .load(MyConstants.BASE_URL_IMAGE+goodsBean.getFigure())
                     .into(ivGov);
             tvDescGov.setText(goodsBean.getName());
             tvPriceGov.setText("￥" + goodsBean.getCover_price());

@@ -8,7 +8,7 @@ import com.example.lenovo.myshapping.R;
 import com.example.lenovo.myshapping.base.BaseFragment;
 import com.example.lenovo.myshapping.find.adapter.HotPostListViewAdapter;
 import com.example.lenovo.myshapping.find.bean.HotPostBean;
-import com.example.lenovo.myshapping.utils.Constants;
+import com.example.lenovo.myshapping.utils.MyConstants;
 import com.google.gson.Gson;
 import com.zhy.http.okhttp.OkHttpUtils;
 import com.zhy.http.okhttp.callback.StringCallback;
@@ -52,7 +52,7 @@ public class HotPostFragment extends BaseFragment {
     public void getDataFromNet() {
         OkHttpUtils
                 .get()
-                .url(Constants.HOT_POST_URL)
+                .url(MyConstants.HOT_POST_URL)
                 .id(100)
                 .build()
                 .execute(new MyStringCallback());

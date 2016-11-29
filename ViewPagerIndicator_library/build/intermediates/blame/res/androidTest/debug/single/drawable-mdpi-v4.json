@@ -68,10 +68,6 @@
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
-        "source": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
-    },
-    {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png",
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png"
     },
@@ -94,10 +90,6 @@
     {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png",
-        "source": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png"
     },
     {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
@@ -136,10 +128,6 @@
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\vpi__tab_selected_focused_holo.9.png",
-        "source": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_selected_focused_holo.9.png"
-    },
-    {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
@@ -156,24 +144,12 @@
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png",
-        "source": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png"
-    },
-    {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png",
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png"
     },
     {
-        "merged": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
-        "source": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_unselected_pressed_holo.9.png"
-    },
-    {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
-        "source": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
     },
     {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",

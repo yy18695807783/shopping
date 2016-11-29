@@ -76,10 +76,6 @@
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\vpi__tab_indicator.xml",
-        "source": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\vpi__tab_indicator.xml"
-    },
-    {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\vpi__tab_indicator.xml",
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\vpi__tab_indicator.xml"
     },
@@ -106,10 +102,6 @@
     {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\vpi_text_tab_indicator.xml",
-        "source": "D:\\as_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\vpi_text_tab_indicator.xml"
     },
     {
         "merged": "D:\\as_2.2.0_workspace\\MyShapping\\ViewPagerIndicator_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_dark.xml",
